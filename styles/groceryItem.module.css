@@ -1,0 +1,44 @@
+.addItemDiv {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-bottom: 2px dotted pink;
+}
+.inputMainDiv {
+  margin: 10px 0;
+}
+.labelName {
+  margin-right: 5px;
+  font-weight: 500;
+}
+.inputStyle {
+  outline: none;
+  border: none;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid rgb(204, 198, 198);
+}
+
+.buttonStyle {
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: blue;
+  transition: all 0.3s ease;
+}
+.headingList {
+  text-decoration: underline;
+  font-style: italic;
+  color: blue;
+}
+.tableMainDiv {
+  display: grid;
+  place-items: center;
+}
+.buttonStyle:hover {
+  opacity: 0.7;
+}
